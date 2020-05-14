@@ -6,6 +6,7 @@
   "main": "dist/pickaround.js",
   "module": "dist/pickaround.module.js",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "microbundle",
     "dev": "microbundle watch"
   },
