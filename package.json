@@ -1,0 +1,25 @@
+{
+  "name": "pickaround",
+  "version": "1.0.0",
+  "description": "A tiny utility to pick numbers around a given number, based on a given range.",
+  "source": "src/pickaround.js",
+  "main": "dist/pickaround.js",
+  "module": "dist/pickaround.module.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjanssen/pickaround.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjanssen/pickaround/issues"
+  },
+  "homepage": "https://github.com/mjanssen/pickaround#readme",
+  "devDependencies": {
+    "microbundle": "^0.12.0"
+  }
+}
